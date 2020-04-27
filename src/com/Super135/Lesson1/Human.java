@@ -2,6 +2,7 @@ package com.Super135.Lesson1;
 
 public class Human implements Runnable, Jumpable {
 
+
     private String name;
     private int run;
     private double jump;
