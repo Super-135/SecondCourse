@@ -58,7 +58,7 @@ public class Main {
         System.out.println("В одном потоке");
         arrNew1(arr,size);
         System.out.println("В двух потоках");
-        arrNew2(arr,size);
+        arrNew2(arr1,size);
 
 
 
