@@ -7,6 +7,7 @@ public class Cat implements Runnable, Jumpable {
     private static final int rangeRun = 400; //Все кошки могут пробежать +- 200 метров (800-1200 метров)
     private static final int rangeJump = 4;  //Все кошки могут прагнуть +- 1 метр (20 - 24 метров)
 
+
     public Cat(String name) {
         this.name = name;
         this.run = 800 +  (int) (Math.random() * (rangeRun+1));
